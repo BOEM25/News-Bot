@@ -123,3 +123,6 @@ dmypy.json
 
 # Pyre type checker
 .pyre/
+
+# Security stuff, like keeping bot token off github :)
+config.json

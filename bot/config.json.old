@@ -1,3 +1,4 @@
 {
-    "token": "place your token here and remove the .old extension"
+    "token": "place your token here and remove the .old extension",
+    "shard_count": 1
 }

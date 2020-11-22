@@ -15,12 +15,12 @@ def find(test, id):
     return False
 
 start = time.time()
-the_list = generate_list(10000000)
+the_list = generate_list(10000)
 finish = time.time() - start
 
 print(f"time to generate list: {finish} s")
 start = time.time()
-print(find(the_list, random.randint(0, 10000000)))
+print(find(the_list, random.randint(0, 10000)))
 finish = time.time() - start
 
 print(f"time to find: {finish} s")

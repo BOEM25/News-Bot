@@ -1,3 +1,28 @@
 {
-    
+    "test": {
+        "name": "Test",
+        "desc": "Lorem Ipsum, not sure whether this is a good structure, may rewrite",
+        "id": 1,
+        "url": "https://rss or api feed.com/feed this is for news.py"
+    },
+    "news bot": {
+        "name": "Test",
+        "desc": "Lorem Ipsum, not sure whether this is a good structure, may rewrite",
+        "id": 1
+    },
+    "nos": {
+        "name": "Test",
+        "desc": "Lorem Ipsum, not sure whether this is a good structure, may rewrite",
+        "id": 1
+    },
+    "nunl": {
+        "name": "Test",
+        "desc": "Lorem Ipsum, not sure whether this is a good structure, may rewrite",
+        "id": 1
+    },
+    "ad": {
+        "name": "Test",
+        "desc": "Lorem Ipsum, not sure whether this is a good structure, may rewrite",
+        "id": 1
+    }
 }

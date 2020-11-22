@@ -1,5 +1,11 @@
+"""
+Watch out with the size parameter, it will kill your RAM
+"""
+
 import random
 import time
+
+size = 1000
 
 def generate_list(size):
     test = []
@@ -15,12 +21,12 @@ def find(test, id):
     return False
 
 start = time.time()
-the_list = generate_list(10000)
+the_list = generate_list(size)
 finish = time.time() - start
 
 print(f"time to generate list: {finish} s")
 start = time.time()
-print(find(the_list, random.randint(0, 10000)))
+print(find(the_list, random.randint(0, size)))
 finish = time.time() - start
 
 print(f"time to find: {finish} s")

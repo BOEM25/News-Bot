@@ -5,7 +5,7 @@ import json
 from discord import Game
 from discord.ext import commands, tasks
 
-config = json.load(open('./config.json', 'r'))
+config = json.load(open('./data/config.json', 'r'))
 
 token = config["token"]
 

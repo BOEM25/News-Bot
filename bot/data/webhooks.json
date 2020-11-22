@@ -1,3 +1,12 @@
 {
-    "nos": [{"url": "url", "webhook_id": 123}]
+    "test": [
+        "https://discord.com/api/webhooks/780187035759673404/aOSAcXwfRLY88FInZeiQDQ2HymcoyrzYflEERGdhRApj0MqUiRjV5cRdyVmMBP6BYzT6",
+        "https://discord.com/api/webhooks/780191677721739326/m4OyXh30wsVTosDHvH7qIKcKEMarpFbrsmJErZ8-PGfimeDpJvgw1t0OzcflC3n8SR9I"
+    ],
+    "nunl": [
+        "https://discord.com/api/webhooks/780187035759673404/aOSAcXwfRLY88FInZeiQDQ2HymcoyrzYflEERGdhRApj0MqUiRjV5cRdyVmMBP6BYzT6"
+    ],
+    "ad": [
+        "https://discord.com/api/webhooks/780187035759673404/aOSAcXwfRLY88FInZeiQDQ2HymcoyrzYflEERGdhRApj0MqUiRjV5cRdyVmMBP6BYzT6"
+    ]
 }

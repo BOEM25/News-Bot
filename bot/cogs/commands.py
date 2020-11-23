@@ -3,6 +3,7 @@ import discord
 import json
 import asyncio
 import time
+import requests
 
 from discord.ext import commands
 
@@ -103,10 +104,10 @@ class Commands(commands.Cog):
 
                 with open('./data/webhooks.json', 'w') as f:
                     json.dump(obj=json_webhooks, fp=f, indent=4)
-                    f.close()
 
         finish = time.time() - start
         await ctx.send(f"{finish} seconds")
+        requests.post("http://localhost:5000/", data=json_webhooks)
         pass
 
     @commands.command()

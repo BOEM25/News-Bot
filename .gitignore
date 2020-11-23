@@ -126,3 +126,4 @@ dmypy.json
 
 # Security stuff, like keeping bot token off github :)
 config.json
+bot/data/webhooks.json
